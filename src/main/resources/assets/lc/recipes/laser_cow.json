@@ -1,0 +1,40 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        " II",
+        "IRB",
+        "L L"
+    ],
+    
+    "key":
+    {
+        "I":
+        {
+            "item":"minecraft:iron_ingot"
+        },
+        
+        "R":
+        {
+            "item":"minecraft:redstone"
+        },
+
+        "B":
+        {
+            "item":"minecraft:iron_bars"
+        },
+        
+        "L":
+        {
+            "item":"minecraft:leather"
+        }
+        
+    },
+    
+    "result":
+    {
+        "item": "lc:laser_cow",
+        "count":1
+    }
+}
