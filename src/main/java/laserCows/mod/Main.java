@@ -3,6 +3,8 @@ package laserCows.mod;
 import laserCows.mod.proxy.CommonProxy;
 import laserCows.mod.tabs.LaserCowsTab;
 import laserCows.mod.util.Reference;
+import laserCows.mod.util.handlers.EntitiesRegistry;
+import laserCows.mod.util.handlers.RenderingRegistry;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.Mod.EventHandler;
@@ -26,11 +28,13 @@ public class Main
 	@EventHandler
 	public static void preInit(FMLPreInitializationEvent event) 
 	{
+		RenderingRegistry.registerEntityRenders();
 	}
 	
 	@EventHandler
 	public static void init(FMLInitializationEvent event) 
 	{
+		EntitiesRegistry.registerEntities();
 	}
 	
 	@EventHandler
