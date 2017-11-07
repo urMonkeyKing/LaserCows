@@ -15,7 +15,7 @@ public class LaserCowsTab extends CreativeTabs
 	@Override
 	public ItemStack getTabIconItem() 
 	{
-		return new ItemStack(ItemInit.LASER_COW);
+		return new ItemStack(ItemInit.LASER_COW_TRIGGER);
 	}
 	
 }

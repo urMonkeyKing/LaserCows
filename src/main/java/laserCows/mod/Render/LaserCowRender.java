@@ -16,13 +16,14 @@ import net.minecraftforge.fml.client.registry.IRenderFactory;
 public class LaserCowRender extends RenderLiving<LaserCowEntity>
 {
 	
-	private static final ResourceLocation laserCowTexture = new ResourceLocation(Reference.MODID+":textures/entity/laser_cow_new_tex.png");
+	private static final ResourceLocation laserCowTexture = new ResourceLocation(Reference.MODID+":textures/entity/laser_cow_texture.png");
 	//protected ResourceLocation laserCowTexture;
 	
 	public LaserCowRender(RenderManager rendermanagerIn)
 	{
-		//super(rendermanagerIn, new LaserCowModel(NAME_TAG_RANGE), 0.5F);
+
 		super(rendermanagerIn, new LaserCowModel(), 0.5F);
+
 	}
 	
 	protected ResourceLocation getEntityTexture(LaserCowEntity entity) {
@@ -30,14 +31,4 @@ public class LaserCowRender extends RenderLiving<LaserCowEntity>
 		return laserCowTexture;
 	}
 	
-	//public static final Factory FACTORY = new Factory();
-
-	//public static class Factory implements IRenderFactory<LaserCowEntity>
-	//{
-	//	@Override
-	//	public Render<? super LaserCowEntity> createRenderFor(RenderManager manager)
-	//	{
-	//		return new LaserCowRender(manager);
-	//	}
-	//}
 }

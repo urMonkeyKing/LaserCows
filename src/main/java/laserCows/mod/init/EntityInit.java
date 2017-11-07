@@ -19,25 +19,5 @@ import net.minecraftforge.fml.relauncher.SideOnly;
 
 public class EntityInit
 {
-	
-	
-	
-	
-	
-	
-	
-	//public static void init()
-	//public static void init()
-	//{
-	//	int id = 1;
-	//	EntityRegistry.registerModEntity(new ResourceLocation(Reference.MODID+ ":Laser Cow"), LaserCowEntity.class, "Laser Cow", id++, Main.instance, 64, 3, true, 0x996600, 0x00ff00);		
-	//	EntityRegistry.addSpawn(LaserCowEntity.class, 100, 3, 5, EnumCreatureType.CREATURE, Biomes.PLAINS);
-		
-	//}
-	
-	//@SideOnly(Side.CLIENT)
-	//public static void initModels()
-	//{
-	//	RenderingRegistry.registerEntityRenderingHandler(LaserCowEntity.class, LaserCowRender.FACTORY);
-	//}
+
 }

@@ -5,6 +5,7 @@ import java.util.List;
 
 import laserCows.mod.objects.armor.ArmorBase;
 import laserCows.mod.objects.items.ItemBase;
+import laserCows.mod.objects.tools.LaserCowTrigger;
 import laserCows.mod.util.Reference;
 import net.minecraft.init.SoundEvents;
 import net.minecraft.inventory.EntityEquipmentSlot;
@@ -23,7 +24,7 @@ public class ItemInit
 	public static final ArmorMaterial ARMOR_REDSTONE = EnumHelper.addArmorMaterial("armor_redstone", Reference.MODID + ":redstone", 33, new int[]{0, 0, 0, 1}, 15, SoundEvents.ITEM_ARMOR_EQUIP_LEATHER, 0.0F);
 	
 	//Items
-	public static final Item LASER_COW = new ItemBase("laser_cow");
+	public static final Item LASER_COW_TRIGGER = new LaserCowTrigger("laser_cow_trigger");
 	
 	//Armor
 	public static final Item GLASSES_REDSTONE = new ArmorBase("glasses_redstone", ARMOR_REDSTONE,1,EntityEquipmentSlot.HEAD);
